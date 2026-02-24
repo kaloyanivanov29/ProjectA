@@ -265,7 +265,7 @@
       btn.innerHTML = '<span>Опитайте отново</span>';
       btn.style.background = 'linear-gradient(135deg, #ef4444, #dc2626)';
       formMessage.className = 'form-message form-message-error';
-      formMessage.textContent = 'Възникна грешка. Моля, опитайте отново или ни пишете на hello@projecta.bg';
+      formMessage.textContent = 'Възникна грешка. Моля, опитайте отново или ни пишете на kaloyanivanov29@gmail.com';
     })
     .finally(function () {
       btn.disabled = false;

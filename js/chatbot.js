@@ -91,94 +91,76 @@
     },
     {
       keywords: ['услуг', 'какво правите', 'какво предлагате', 'service', 'какво може'],
-      response: 'Предлагаме 4 основни услуги:<br><br>' +
-        '<strong>1. Уеб разработка</strong> — React, Next.js, Node.js<br>' +
-        '<strong>2. UI/UX Дизайн</strong> — Figma, прототипиране, UX изследвания<br>' +
-        '<strong>3. Брандинг</strong> — лого, бранд идентичност, стратегия<br>' +
-        '<strong>4. Дигитален маркетинг</strong> — SEO, PPC, анализ<br><br>' +
+      response: 'Предлагаме следните услуги:<br><br>' +
+        '<strong>1. SEO & SEM</strong> — оптимизация и маркетинг в търсачки<br>' +
+        '<strong>2. Дигитален маркетинг</strong> — Content Marketing, Facebook Ads, Google Ads, Google Analytics, Email Marketing<br>' +
+        '<strong>3. Социални мрежи</strong> — цялостно поддържане<br>' +
+        '<strong>4. Видео обработка</strong> — за реклами и социални мрежи<br><br>' +
+        '<em>Очаквайте скоро: AI услуги, изработка на сайтове и автоматизации.</em><br><br>' +
         'За коя услуга искате да научите повече?'
     },
     {
-      keywords: ['уеб разработ', 'web', 'сайт', 'приложени', 'react', 'next', 'node'],
-      response: 'Нашият екип създава бързи, сигурни и мащабируеми уеб приложения с <strong>React, Next.js и Node.js</strong>. Всеки проект е адаптиран спрямо нуждите на клиента — от корпоративни сайтове до сложни уеб платформи.'
+      keywords: ['seo', 'sem', 'търсач', 'оптимизация'],
+      response: 'Предлагаме <strong>SEO & SEM</strong> услуги — оптимизация за търсачки и маркетинг в търсачки. Повече видимост означава повече клиенти за вашия бизнес.'
     },
     {
-      keywords: ['дизайн', 'ui', 'ux', 'figma', 'интерфейс', 'design'],
-      response: 'Нашите дизайнери проектират <strong>интуитивни и красиви интерфейси</strong>, фокусирани върху потребителското изживяване. Работим с Figma и провеждаме UX изследвания, за да гарантираме, че продуктът работи за вашите потребители.'
+      keywords: ['facebook', 'instagram', 'социалн', 'мреж', 'social'],
+      response: 'Предлагаме <strong>цялостно поддържане на социални мрежи</strong> — създаване на съдържание, планиране и управление на профили в Instagram, Facebook и LinkedIn.'
     },
     {
-      keywords: ['бранд', 'лого', 'идентичност', 'brand', 'logo'],
-      response: 'Изграждаме <strong>уникални бранд идентичности</strong>, включващи лого дизайн, цветова палитра, типография и бранд стратегия. Целта ни е вашият бизнес да се отличава от конкуренцията.'
+      keywords: ['google ads', 'facebook ads', 'реклам', 'ads', 'ppc'],
+      response: 'Управляваме <strong>рекламни кампании</strong> във Facebook Ads и Google Ads. Фокусираме се върху ROI и реален растеж за вашия бизнес.'
     },
     {
-      keywords: ['маркетинг', 'seo', 'реклам', 'ppc', 'google ads', 'marketing'],
-      response: 'Предлагаме пълен набор от <strong>дигитален маркетинг</strong> услуги — SEO оптимизация, Google Ads, реклама в социалните мрежи и подробен анализ на резултатите. Фокусираме се върху ROI и реален растеж.'
+      keywords: ['маркетинг', 'seo', 'marketing', 'content', 'email'],
+      response: 'Предлагаме пълен набор от <strong>дигитален маркетинг</strong> услуги — SEO, SEM, Content Marketing, Facebook Ads, Google Ads, Google Analytics, Email Marketing и управление на социални мрежи.'
+    },
+    {
+      keywords: ['видео', 'video', 'монтаж', 'reels'],
+      response: 'Предлагаме <strong>професионална видео обработка</strong> за социални мрежи, реклами и презентации — включително Reels, кратки видеа и рекламни клипове.'
     },
     {
       keywords: ['екип', 'кой', 'хора', 'team', 'кои сте'],
-      response: 'Нашият екип се състои от 4 ключови специалисти:<br><br>' +
-        '<strong>Александър Иванов</strong> — CEO & Стратегия (10+ год. опит)<br>' +
-        '<strong>Мария Петрова</strong> — Creative Director<br>' +
-        '<strong>Георги Димитров</strong> — Lead Developer (Full-stack)<br>' +
-        '<strong>Елена Стоянова</strong> — Marketing Manager<br><br>' +
-        'Заедно имаме над 8 години опит в дигиталната индустрия.'
+      response: 'Зад ProjectA стои <strong>Калоян Иванов</strong> — основател, който се занимава с всичко от SEO и рекламни кампании до управление на социални мрежи и видео обработка. Базиран е във Варна.'
     },
     {
       keywords: ['процес', 'как работ', 'стъпк', 'етап', 'process'],
       response: 'Работим в 4 ясни стъпки:<br><br>' +
         '<strong>01. Откриване</strong> — Анализ на целите и аудиторията<br>' +
         '<strong>02. Стратегия</strong> — Детайлен план с етапи и срокове<br>' +
-        '<strong>03. Дизайн & Разработка</strong> — Превръщаме плана в реалност<br>' +
-        '<strong>04. Пускане & Растеж</strong> — Оптимизираме за максимални резултати'
+        '<strong>03. Изпълнение</strong> — Превръщаме плана в реалност<br>' +
+        '<strong>04. Оптимизация</strong> — Анализ и подобряване на резултатите'
     },
     {
       keywords: ['контакт', 'свърж', 'имейл', 'email', 'телефон', 'адрес', 'пиш', 'обад'],
-      response: 'Можете да се свържете с нас по няколко начина:<br><br>' +
-        '📧 <strong>hello@projecta.bg</strong><br>' +
-        '📞 <strong>+359 2 123 4567</strong><br>' +
-        '📍 <strong>София, България</strong><br><br>' +
-        'Или попълнете <a href="#contact" style="color:#818cf8;text-decoration:underline;">контактната форма</a> и ще ви отговорим до 24 часа.'
+      response: 'Можете да се свържете с нас:<br><br>' +
+        '📧 <strong>kaloyanivanov29@gmail.com</strong><br>' +
+        '📍 <strong>Варна, България</strong><br><br>' +
+        'Или попълнете <a href="#contact" style="color:#818cf8;text-decoration:underline;">контактната форма</a> и ще ви отговорим възможно най-скоро.'
     },
     {
       keywords: ['цен', 'колко струва', 'цена', 'бюджет', 'price', 'cost', 'оферт', 'стойност'],
-      response: 'Цената зависи от обхвата и сложността на проекта. Всяка оферта е <strong>индивидуална</strong>. Свържете се с нас чрез <a href="#contact" style="color:#818cf8;text-decoration:underline;">контактната форма</a> или на <strong>hello@projecta.bg</strong>, за да обсъдим вашите нужди и да ви дадем оферта.'
+      response: 'Цената зависи от обхвата на проекта. Всяка оферта е <strong>индивидуална</strong>. Свържете се с нас чрез <a href="#contact" style="color:#818cf8;text-decoration:underline;">контактната форма</a> или на <strong>kaloyanivanov29@gmail.com</strong>, за да обсъдим вашите нужди.'
     },
     {
-      keywords: ['проект', 'портфолио', 'portfolio', 'примери', 'работа'],
-      response: 'Имаме портфолио с над <strong>150+ завършени проекта</strong> за 50+ клиенти. Ето някои примери:<br><br>' +
-        '<strong>NovaTech Store</strong> — E-commerce платформа (Next.js, Stripe)<br>' +
-        '<strong>FlowMetrics</strong> — Аналитичен дашборд (React, D3.js)<br>' +
-        '<strong>Verdant Kitchen</strong> — Ребрандинг за верига ресторанти<br>' +
-        '<strong>PulseHealth</strong> — Мобилно приложение за здраве'
+      keywords: ['проект', 'портфолио', 'portfolio', 'примери', 'работа', 'клиент'],
+      response: 'В момента работим с <strong>Espreso.bg</strong> — цялостен дигитален маркетинг включващ SEO, социални мрежи и рекламни кампании. Клиентът е изключително доволен от качеството на работа.'
     },
     {
       keywords: ['опит', 'години', 'колко време', 'experience'],
-      response: 'ProjectA има <strong>над 8 години опит</strong> в дигиталната индустрия, <strong>150+ завършени проекта</strong> и <strong>50+ доволни клиенти</strong>.'
+      response: 'ProjectA е млада агенция с по-малко от една година опит, но работим с пълна отдаденост и качество. Нашият клиент Espreso.bg потвърждава, че си вършим работата наистина качествено.'
     },
     {
       keywords: ['благодар', 'мерси', 'thanks', 'thank'],
-      response: 'С удоволствие! Ако имате други въпроси, не се колебайте да попитате. 😊'
+      response: 'С удоволствие! Ако имате други въпроси, не се колебайте да попитате.'
     },
     {
       keywords: ['довиждане', 'чао', 'bye', 'goodbye'],
-      response: 'Довиждане! Беше ми приятно да говорим. Ако имате нужда от нещо, ще съм тук! 👋'
+      response: 'Довиждане! Беше ми приятно да говорим. Ако имате нужда от нещо, ще съм тук!'
     },
     {
-      keywords: ['време', 'колко дни', 'колко време', 'срок', 'deadline', 'бързо'],
-      response: 'Сроковете зависят от проекта. Стандартно:<br><br>' +
-        '• Лендинг страница — <strong>1-2 седмици</strong><br>' +
-        '• Корпоративен сайт — <strong>3-6 седмици</strong><br>' +
-        '• Уеб приложение — <strong>2-4 месеца</strong><br>' +
-        '• Брандинг — <strong>2-4 седмици</strong><br><br>' +
-        'Свържете се с нас за точна оценка на вашия проект.'
-    },
-    {
-      keywords: ['технолог', 'stack', 'с какво работите', 'инструмент'],
-      response: 'Работим с модерни технологии:<br><br>' +
-        '<strong>Frontend:</strong> React, Next.js, HTML/CSS, JavaScript<br>' +
-        '<strong>Backend:</strong> Node.js, Express<br>' +
-        '<strong>Дизайн:</strong> Figma, Adobe Suite<br>' +
-        '<strong>Маркетинг:</strong> Google Analytics, Google Ads, Meta Ads'
+      keywords: ['ai', 'изкуствен интелект', 'автоматизаци', 'сайт'],
+      response: 'Скоро ще предлагаме и <strong>AI услуги, изработка на уебсайтове и автоматизации</strong>. Следете ни за повече информация или се свържете с нас на <strong>kaloyanivanov29@gmail.com</strong>.'
     }
   ];
 
@@ -196,6 +178,6 @@
     }
 
     // Default response
-    return 'Благодаря за въпроса! За по-подробен отговор, моля свържете се с нас на <strong>hello@projecta.bg</strong> или попълнете <a href="#contact" style="color:#818cf8;text-decoration:underline;">контактната форма</a>. Ще ви отговорим в рамките на 24 часа.';
+    return 'Благодаря за въпроса! За по-подробен отговор, моля свържете се с нас на <strong>kaloyanivanov29@gmail.com</strong> или попълнете <a href="#contact" style="color:#818cf8;text-decoration:underline;">контактната форма</a>. Ще ви отговорим възможно най-скоро.';
   }
 })();

@@ -1266,6 +1266,34 @@ body:hover .cursor-dot {
   min-height: 120px;
 }
 
+/* Form Messages */
+.form-message {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0;
+  border-radius: 10px;
+  transition: all 0.3s var(--ease);
+}
+
+.form-message-success {
+  padding: 14px 20px;
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  color: #34d399;
+}
+
+.form-message-error {
+  padding: 14px 20px;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #f87171;
+}
+
+button[type="submit"]:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
 /* --- Footer --- */
 .footer {
   padding: 80px 0 32px;

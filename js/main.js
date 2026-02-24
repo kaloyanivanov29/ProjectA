@@ -223,22 +223,59 @@
     });
   }
 
-  // --- Contact Form ---
+  // --- Contact Form (Formspree) ---
   const contactForm = document.getElementById('contactForm');
+  const formMessage = document.getElementById('formMessage');
+
   contactForm.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    const btn = this.querySelector('button[type="submit"]');
+    const btn = document.getElementById('submitBtn');
     const originalContent = btn.innerHTML;
 
-    btn.innerHTML = '<span>Изпратено!</span> &#10003;';
-    btn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
+    // Show loading state
+    btn.innerHTML = '<span>Изпращане...</span>';
+    btn.disabled = true;
+    formMessage.className = 'form-message';
+    formMessage.textContent = '';
 
-    setTimeout(() => {
-      btn.innerHTML = originalContent;
-      btn.style.background = '';
-      contactForm.reset();
-    }, 3000);
+    const formData = new FormData(contactForm);
+
+    fetch(contactForm.action, {
+      method: 'POST',
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(function (response) {
+      if (response.ok) {
+        // Success
+        btn.innerHTML = '<span>Изпратено!</span> &#10003;';
+        btn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
+        formMessage.className = 'form-message form-message-success';
+        formMessage.textContent = 'Съобщението е изпратено успешно! Ще се свържем с вас скоро.';
+        contactForm.reset();
+      } else {
+        return response.json().then(function (data) {
+          throw new Error(data.errors ? data.errors.map(function (err) { return err.message; }).join(', ') : 'Грешка при изпращане');
+        });
+      }
+    })
+    .catch(function (error) {
+      // Error
+      btn.innerHTML = '<span>Опитайте отново</span>';
+      btn.style.background = 'linear-gradient(135deg, #ef4444, #dc2626)';
+      formMessage.className = 'form-message form-message-error';
+      formMessage.textContent = 'Възникна грешка. Моля, опитайте отново или ни пишете на hello@projecta.bg';
+    })
+    .finally(function () {
+      btn.disabled = false;
+      setTimeout(function () {
+        btn.innerHTML = originalContent;
+        btn.style.background = '';
+        formMessage.className = 'form-message';
+        formMessage.textContent = '';
+      }, 5000);
+    });
   });
 
   // --- Parallax on Hero Shapes ---

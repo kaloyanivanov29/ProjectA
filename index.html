@@ -592,6 +592,49 @@
     </div>
   </footer>
 
+  <!-- Chatbot -->
+  <div class="chatbot" id="chatbot">
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Отворете чат">
+      <svg class="chatbot-icon-open" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+      </svg>
+      <svg class="chatbot-icon-close" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+    <div class="chatbot-window" id="chatbotWindow">
+      <div class="chatbot-header">
+        <div class="chatbot-header-info">
+          <div class="chatbot-avatar">PA</div>
+          <div>
+            <div class="chatbot-name">ProjectA Асистент</div>
+            <div class="chatbot-status"><span class="chatbot-status-dot"></span> Онлайн</div>
+          </div>
+        </div>
+      </div>
+      <div class="chatbot-messages" id="chatbotMessages">
+        <div class="chatbot-msg chatbot-msg-bot">
+          <p>Здравейте! Аз съм виртуалният асистент на ProjectA. Как мога да ви помогна?</p>
+        </div>
+        <div class="chatbot-quick-actions" id="chatbotQuickActions">
+          <button class="chatbot-quick-btn" data-msg="Какви услуги предлагате?">Услуги</button>
+          <button class="chatbot-quick-btn" data-msg="Кой е екипът ви?">Екип</button>
+          <button class="chatbot-quick-btn" data-msg="Как работите?">Процес</button>
+          <button class="chatbot-quick-btn" data-msg="Как мога да се свържа с вас?">Контакт</button>
+        </div>
+      </div>
+      <div class="chatbot-input-area">
+        <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Напишете съобщение..." autocomplete="off">
+        <button class="chatbot-send" id="chatbotSend" aria-label="Изпрати">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <script src="js/main.js"></script>
+  <script src="js/chatbot.js"></script>
 </body>
 </html>
